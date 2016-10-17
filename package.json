@@ -1,0 +1,21 @@
+{
+  "name": "learn-async",
+  "version": "1.0.0",
+  "description": "learn async coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "async",
+    "thunkify",
+    "co",
+    "generator"
+  ],
+  "author": "Jimvin Huang",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "thunkify": "^2.1.2"
+  }
+}
