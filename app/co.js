@@ -50,7 +50,7 @@ co(function* () {
   console.log('并发请求结果（对象）：%s', JSON.stringify(res));
 }).catch(onerror);
 
-// 异常终端执行
+// 异常中断执行
 co(function* () {
   var res = yield {
     province: readFile('file/province.txt', 'utf8')
