@@ -6,6 +6,8 @@
         "browser": true
         // Node.js 全局变量和 Node.js 作用域
         ,"node": true
+        // 支持除了modules所有 ECMAScript 6 特性
+        ,"es6": true
     }
     // 自定义规则
     ,"rules": {
