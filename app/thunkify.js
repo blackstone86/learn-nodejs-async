@@ -41,7 +41,7 @@ var gen = function* (){
 };
 run(gen);
 
-// 异常终端执行
+// 异常中断执行
 run(function* () {
   var r1 = yield readFile('file/province.txt', 'utf8');
   var r2 = yield readFile('file/city.txt', 'utf8');
